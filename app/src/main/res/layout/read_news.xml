@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/news1"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:text="  The College Entrance Examination in 2018 seems to be still yesterday, but looking at the calendar, the College Entrance Examination in 2019 has quietly arrived, the last 100 days of sprint, the time to change the fate of fierce competition is coming again, now every high school student preparing for the exam is tightly tied, the atmosphere is unusually tense, Xiaobian wishes every examinee here, can enter your ideal school! Some time ago, the Ministry of Education also issued a relevant notice: in order to strengthen the steady progress of the college entrance examination, it was decided that eight provinces (cities) should formally start the comprehensive reform of the college entrance examination, including Hebei, Liaoning, Jiangsu, Fujian, Hubei, Hunan, Guangdong and Chongqing, which means the arrival of good news. The specific implementation time is based on the first year students who entered the University in September 2018."
+        android:textSize="18sp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image1"/>
+
+</android.support.constraint.ConstraintLayout>

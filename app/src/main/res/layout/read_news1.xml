@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/main2"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:text="   According to Cambridge's official website, Cambridge University can accept the results of the National College Entrance Examination in China. However, it requires the candidates to achieve the top 0.1% of the provincial rankings, and to meet the language requirements of the application profession, IELTS usually requires 7 points.At the same time, Cambridge University also pointed out that it would pay attention to the Chinese students'academic proficiency test. In addition, Cambridge University also encourages aspiring Chinese students to take part in scientific Olympics, SATI/II or AP examinations.As of 2017 - 2018, 420 Chinese students had undergraduate studies at Cambridge University and 754 Chinese students had master's degrees at Cambridge University, according to Cambridge's official website. "
+        android:textSize="20sp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image1"/>
+
+</android.support.constraint.ConstraintLayout>

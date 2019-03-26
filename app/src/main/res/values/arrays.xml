@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name = "provinces">
+        <item>AnHui</item>
+        <item>BeiJing</item>
+        <item>ChongQing</item>
+        <item>FuJian</item>
+        <item>GanSu</item>
+        <item>GuangDong</item>
+        <item>GuangXi</item>
+        <item>GuiZhou</item>
+        <item>HaiNan</item>
+        <item>HeBei</item>
+        <item>HeiLongjiang</item>
+        <item>HeNan</item>
+        <item>HongKong</item>
+        <item>HuBei</item>
+        <item>HuNan</item>
+        <item>JiangSu</item>
+        <item>JiangXi</item>
+        <item>JiLin</item>
+        <item>LiaoNing</item>
+        <item>Macao</item>
+        <item>NeiMonggu</item>
+        <item>NingXia</item>
+        <item>QingHai</item>
+        <item>ShangHai</item>
+        <item>ShanDong</item>
+        <item>ShanXI</item>
+        <item>ShanXi</item>
+        <item>SiChuan</item>
+        <item>TaiWan</item>
+        <item>TianJin</item>
+        <item>XinJiang</item>
+        <item>XiZang</item>
+        <item>YunNan</item>
+        <item>ZheJiang</item>
+    </string-array>
+    <string-array name = "colleges">
+        <item>CQU</item>
+        <item>SCU</item>
+        <item>Beking</item>
+    </string-array>
+    <string-array name = "majors">
+        <item> </item>
+        <item>Astronomy</item>
+        <item>Biology</item>
+        <item>Chemistry</item>
+        <item>Finance</item>
+        <item>Geographical Science</item>
+        <item>Internet of Things Project</item>
+        <item>Math</item>
+        <item>Physics</item>
+        <item>Statistics</item>
+        <item>Software</item>
+    </string-array>
+    <string-array name = "Years">
+        <item> </item>
+        <item>2018</item>
+        <item>2017</item>
+        <item>2016</item>
+    </string-array>
+</resources>
